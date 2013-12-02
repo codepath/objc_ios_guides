@@ -1,6 +1,6 @@
 # CodePath iOS Cliffnotes
 
-Welcome to the open-source [Codepath](http://thecodepath.com) iOS Cliffnotes! Our goal is to become the **central crowdsourced resource** for complete and up-to-date iOS content and tutorials. [Just take me to the notes](https://github.com/thecodepath/ios_guides/wiki)!
+Welcome to the open-source [CodePath](http://thecodepath.com) iOS Cliffnotes! Our goal is to become the **central crowdsourced resource** for complete and up-to-date iOS content and tutorials. [Just take me to the notes](https://github.com/thecodepath/ios_guides/wiki)!
 
 [![CodePath](http://i.imgur.com/XgxWfyF.png)](http://thecodepath.com)
 
