@@ -26,9 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    self.navigationController.tabBarItem.title = @"Second";
-    self.navigationController.tabBarItem.image = [UIImage imageNamed:@"Martini"];
 }
 
 - (void)didReceiveMemoryWarning

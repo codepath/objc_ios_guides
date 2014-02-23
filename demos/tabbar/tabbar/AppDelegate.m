@@ -16,16 +16,23 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    
+    // Create the two view controllers, each within a navigation controller
     FirstViewController *firstViewController = [[FirstViewController alloc] init];
     UINavigationController *firstNavigationController = [[UINavigationController alloc] initWithRootViewController:firstViewController];
     
     SecondViewController *secondViewController = [[SecondViewController alloc] init];
     UINavigationController *secondNavigationController = [[UINavigationController alloc] initWithRootViewController:secondViewController];
     
+    // Configure the tab bar controller with the two navigation controllers
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = @[firstNavigationController, secondNavigationController];
+    
+    // Configure the titles and images of the tab bar items
+    firstNavigationController.tabBarItem.title = @"First";
+    firstNavigationController.tabBarItem.image = [UIImage imageNamed:@"House"];
+    
+    secondNavigationController.tabBarItem.title = @"Second";
+    secondNavigationController.tabBarItem.image = [UIImage imageNamed:@"Martini"];
     
     self.window.rootViewController = tabBarController;
     

@@ -26,9 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    self.navigationController.tabBarItem.title = @"First";
-    self.navigationController.tabBarItem.image = [UIImage imageNamed:@"House"];
 }
 
 - (void)didReceiveMemoryWarning
